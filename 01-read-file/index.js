@@ -6,5 +6,5 @@ const pathToFile = path.join(__dirname, 'text.txt');
 const readStream = fs.createReadStream(pathToFile, { encoding: 'utf8' });
 
 readStream.on('data', (data) => {
-    console.log(data);
-})
+  console.log(data);
+});
